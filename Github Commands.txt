@@ -1,0 +1,22 @@
+Steps:
+1) Create a repository on github website
+2) Create a folder in your mac
+git init -- initialize empty git repository in the folder
+ls -al -- view all the hidden files and folders
+
+git add -- add to remote repository
+git pull -- pull files
+git push -- push your changes into central repository
+
+
+get the link in the clone or download button
+## connect your local mahine with the github
+git remote add origin "https://github.com/chloechen1995/app_development.git"
+
+git pull origin master
+## clone the repository on github
+
+git status -- tells you which files are added to index and ready to commit
+
+
+
