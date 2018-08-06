@@ -1,0 +1,10 @@
+touch filename -- updates file access and modify timestamps, create an empty file if one does not exist
+
+open filename -- open the file
+
+mv sourcefile destinationfile
+
+man rm -- show the command line information
+
+rm -d -- remove the directory
+
