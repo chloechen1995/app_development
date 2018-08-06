@@ -59,4 +59,15 @@ git push origin master
 git push origin firstbranch
 
 
+If you want to change back to your previous version,
+## check out your commit history
+git log 
+## copy the first 8 digits of the commit hash code
+git checkout 8digits filename
+git checkout 80263164 revert.txt
+
+
+Tutorial:
+https://www.youtube.com/watch?v=xuB1Id2Wxak
+
 
