@@ -17,6 +17,46 @@ git pull origin master
 ## clone the repository on github
 
 git status -- tells you which files are added to index and ready to commit
+git add file_name -- add files to the repository
+git commit -m "Your message"
+
+git add -A -- add all the files to the repository
+git commit -a -m "adding 3 files" -- commit message
+
+git log -- see all the commit history
+
+## create a different branch
+git branch firstbranch
+## swtich the branch from master to firstbranch
+git checkout firstbranch
+## switch the branch from firstbranch to master
+git checkout master
+
+## first, make sure you are in the branch that you want to merge into
+## we are in the master branch right now
+git merge firstbranch
+
+## if your file is in the repository and you only want to make some changes, you don't need to use git add, you can just use the command below
+git commit -a -m "Your Message" 
+
+git pull = git fetch + git merge
+
+## merge the files in the master with the first branch, do everything in a linear way
+git rebase master
+
+
+## generate a ssh key
+ssh-keygen
+
+go back to the github website/setting/ssh and gpg keys
+add the ssh key in the account
+ssh -T git@github.com
+
+## push changes to master
+git push origin master
+
+## push changes to firstbranch
+git push origin firstbranch
 
 
 
